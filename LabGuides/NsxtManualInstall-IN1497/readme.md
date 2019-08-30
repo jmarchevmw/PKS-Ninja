@@ -191,7 +191,7 @@ In this step, you create a connection between the NSX manager and your vCenter. 
 - Type: `vCenter`
 - Username: `administrator@corp.local`
 - Password: `VMware1!`
-- Clcik **Add**
+- Click **Add**
 - Click **Add** again to accept the vCenter certificate thumbprint
 
 _NOTE: in a production implementation, you would first copy the vCenter thumbprint and then provide it in the form to properly authenticate the intial connection._
@@ -267,13 +267,13 @@ _NOTE: in a production implementation, you would first copy the vCenter thumbpri
  - Name: nsxedge-1
  - FQDN: nsxedge-1.corp.local   
  - Form Factor: Large
- - Click Next
+      - Click **Next**
  - CLI Password: VMware1!VMware1!
  - System Root Password: VMware1!VMware1!
  - Compute Manager: vcsa-01a
  - Cluster: RegionA01-MGMT01
  - Datastore: RegionA01-ISCSI02-COMP01
- - Click Next
+      - Click **Next**
  - Management: VM-RegionA01-vDS-MGMT
  - Select "Static" (not DHCP)
  - Management IP: 192.168.110.91/24
@@ -281,7 +281,7 @@ _NOTE: in a production implementation, you would first copy the vCenter thumbpri
  - fp-eth0: Uplink-RegionA01-vDS-MGMT
  - fp-eth1: Transport-RegionA01-vDS-MGMT
  - fp-eth2: VM-RegionA01-vDS-MGMT
- - Click Finish
+      - Click **Finish**
 
 <details><summary>Screenshot 3.6.1</summary>
 <img src="Images/2019-08-12-23-48-01.png">
